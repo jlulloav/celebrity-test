@@ -22,11 +22,10 @@ h1, h2 {
   font-weight: 400;
   padding: 10px 30px;
   background-color: #1fb7ea;
-  -webkit-transition: background-color .2s linear;
-  -moz-transition: background-color .2s linear;
-  -ms-transition: background-color .2s linear;
-  -o-transition: background-color .2s linear;
-  transition: background-color .2s linear;
+  -moz-transition: background-color 0.2s linear;
+  -o-transition: background-color 0.2s linear;
+  -webkit-transition: background-color 0.2s linear;
+  transition: background-color 0.2s linear;
   border-radius: 1px; }
   .button:hover {
     color: #fff;
@@ -50,6 +49,10 @@ section {
 .vertical-center {
   position: relative;
   top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
   transform: translateY(-50%); }
 
 .main-content {
@@ -74,10 +77,9 @@ section {
     -ms-transform: rotate(0);
     -o-transform: rotate(0);
     transform: rotate(0);
-    -webkit-transition: -webkit-transform 0.2s linear;
     -moz-transition: -moz-transform 0.2s linear;
-    -ms-transition: -ms-transform 0.2s linear;
     -o-transition: -o-transform 0.2s linear;
+    -webkit-transition: -webkit-transform 0.2s linear;
     transition: transform 0.2s linear; }
     .modal-dialog .close-button:hover {
       -webkit-transform: rotate(180deg);
@@ -126,11 +128,10 @@ section {
       .main-hero-section .breadcrumbs .breadcrumb a {
         color: #7b7b7b;
         text-decoration: none;
-        -webkit-transition: color .2s linear;
-        -moz-transition: color .2s linear;
-        -ms-transition: color .2s linear;
-        -o-transition: color .2s linear;
-        transition: color .2s linear; }
+        -moz-transition: color 0.2s linear;
+        -o-transition: color 0.2s linear;
+        -webkit-transition: color 0.2s linear;
+        transition: color 0.2s linear; }
       .main-hero-section .breadcrumbs .breadcrumb:before {
         content: "";
         width: 0;
@@ -218,11 +219,10 @@ section {
           border-color: #fff; }
   .itinerary-section .carousel-container {
     height: 100%;
-    -webkit-transition: transform .4s linear;
-    -moz-transition: -moz-transform .4s linear;
-    -ms-transition: -ms-transform .4s linear;
-    -o-transition: -o-transform .4s linear;
-    transition: transform .4s linear; }
+    -moz-transition: -moz-transform 0.4s linear;
+    -o-transition: -o-transform 0.4s linear;
+    -webkit-transition: -webkit-transform 0.4s linear;
+    transition: transform 0.4s linear; }
     .itinerary-section .carousel-container.active-day-1 {
       -webkit-transform: translateX(0);
       -moz-transform: translateX(0);
