@@ -504,6 +504,12 @@ section {
 
             [class^="col-"] {
                 flex: 1;
+                position: relative;
+
+                .options-container {
+                    min-height: 373px;
+                    height: 100%;
+                }
             }
         }
     }

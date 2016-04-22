@@ -15,7 +15,7 @@ angular.module('celebrityCruisesApp')
       self.open = function () {
           var modalInstance = $uibModal.open({
               animation: true,
-              templateUrl: 'templates/terms.html'
+              templateUrl: 'modal.html'
           });
       };
 

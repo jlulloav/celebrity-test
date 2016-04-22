@@ -363,6 +363,10 @@ section {
   .how-to-book-section .make-same-height {
     display: flex; }
     .how-to-book-section .make-same-height [class^="col-"] {
-      flex: 1; } }
+      flex: 1;
+      position: relative; }
+      .how-to-book-section .make-same-height [class^="col-"] .options-container {
+        min-height: 373px;
+        height: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
