@@ -1,0 +1,227 @@
+<section class="main-hero-section large-content">
+    <ul class="breadcrumbs">
+        <li class="breadcrumb"><a href="#">Home</a></li>
+        <li class="breadcrumb"><a href="#">Vacation Packages</a></li>
+        <li class="breadcrumb"><a href="#">City Stays</a></li>
+        <li class="breadcrumb"><a href="#">Seattle City Stay</a></li>
+    </ul>
+    <div class="row vertical-center">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
+                    <h1>Seattle</h1>
+                    <h2>City Stay</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <p>Start your Alaska vacation before your ship even sails. Add a Celebrity City Stay to your cruise and experience Seattle for three glorious days and nights.</p>
+                    <div class="text-center">
+                        <button class="button" scroll-to-element="#itinerary">SEE THE ITINERARY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="itinerary" class="itinerary-section large-content">
+    <div class="itinerary-control-container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <h1>YOUR ITINERARY</h1>
+                <ul class="itinerary-list-names list-inline">
+                    <li ng-click="main.changeItineraryClick(1)" ng-class="{'active': main.activeItinerary == 1, 'completed': main.activeItinerary > 1}">Day 1</li>
+                    <li ng-click="main.changeItineraryClick(2)" ng-class="{'active': main.activeItinerary == 2, 'completed': main.activeItinerary > 2}">Day 2</li>
+                    <li ng-click="main.changeItineraryClick(3)" ng-class="{'active': main.activeItinerary == 3, 'completed': main.activeItinerary > 3}">Day 3</li>
+                    <li ng-click="main.changeItineraryClick(4)" ng-class="{'active': main.activeItinerary == 4}">Day 4</li>
+                </ul>
+                <ul class="itinerary-list-bullets list-inline">
+                    <li ng-click="main.changeItineraryClick(1)" ng-class="{'active': main.activeItinerary == 1, 'completed': main.activeItinerary > 1}"></li>
+                    <li ng-click="main.changeItineraryClick(2)" ng-class="{'active': main.activeItinerary == 2, 'completed': main.activeItinerary > 2}"></li>
+                    <li ng-click="main.changeItineraryClick(3)" ng-class="{'active': main.activeItinerary == 3, 'completed': main.activeItinerary > 3}"></li>
+                    <li ng-click="main.changeItineraryClick(4)" ng-class="{'active': main.activeItinerary == 4}"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-container active-day-{{main.activeItinerary}}">
+        <div class="carousel-item day-1">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 pull-right">
+                    <div class="carousel-information">
+                        <div class="row">
+                            <div class="col-xs-5 col-md-3">
+                                <h1 class="title">Day 1</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="carousel-content">
+                                    <h1>Arrive in Seattle</h1>
+                                    <div class="hidden-xs">
+                                        <p class="subtitle">Arrival:</p>
+                                        <p>You've arrived. We'll meet you at the airport to whisk you away to the luxurious Fairmont Olympic Hotel, a celebrated historical landmark located in the heart of downtown Seattle. Convenience is key here—you're close to Pike Place Market and many other Seattle hot spots.</p>
+                                        <p class="subtitle">Afternoon:</p>
+                                        <p>Start exploring right away. Pop into an indie coffee shop for some local brew—Seattleites love their java. Take in Chihuly's stunning glasswork. Or visit the experts at the Celebrity Cruise Hospitality Desk to book tours, reserve restaurants, and gather tips. They're here to make sure your stay is your personalized idea of fabulous.</p>
+                                        <p class="subtitle">Evening:</p>
+                                        <p>Seattle's nightlife is hopping. Comedy and improv? Check. Dinner and dancing? Absolutely. Seattle's got something for everyone. If it's R&R you crave, stop by Penelope & The Beauty Bar at your hotel for some much-deserved pampering. Or take a stroll through the lobby to view early 20th century elegant décor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item day-2">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 pull-right">
+                    <div class="carousel-information">
+                        <div class="row">
+                            <div class="col-xs-5 col-md-3">
+                                <h1 class="title">Day 2</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="carousel-content">
+                                    <h1>Space needles, stadiums, and simulated flight</h1>
+                                    <div class="hidden-xs">
+                                        <p class="subtitle">Morning:</p>
+                                        <p>After your complimentary breakfast, jet set off on your guided tour to the Future of Flight Aviation Center. Go behind-the-scenes in the assembly plant and one of the largest buildings in the world. Visit the Boeing Theater and interactive exhibits. Test your flying abilities with the flight simulator—we won't judge if you decide it's best to keep your day job.</p>
+                                        <p class="subtitle">Afternoon:</p>
+                                        <p>We've arranged a special lunch at a waterside restaurant to kick off the afternoon part of your tour. Visit downtown Seattle with local experts and leave no (Seattle) stone unturned. Check out the sports stadiums, Seattle's Chinatown, and the Pioneer Square district. The sky's the limit on this tour—literally. End your tour 605 feet above ground on the Seattle Space Needle with views of Mt. Rainier, the Cascade Mountains, and the Olympic Mountain range.</p>
+                                        <p class="subtitle">Evening:</p>
+                                        <p>Stop by the original Starbucks for a coffee nightcap. Or watch Seattle's super-speedy shuckers in action at a local oyster bar. Craving some downtime? Take a dip in your hotel's posh indoor pool. Decisions, decisions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item day-3">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 pull-right">
+                    <div class="carousel-information">
+                        <div class="row">
+                            <div class="col-xs-5 col-md-3">
+                                <h1 class="title">Day 3</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="carousel-content">
+                                    <h1>Puget Sound to Pike Place Market</h1>
+                                    <div class="hidden-xs">
+                                        <p class="subtitle">Morning:</p>
+                                        <p>After your complimentary breakfast, indulge in some downtime. Or check out the Puget Sound sea life at the Seattle Aquarium. Your Celebrity Cruises Hospitality Desk is also available for tour recommendations or suggestions to explore on your own.</p>
+                                        <p class="subtitle">Afternoon:</p>
+                                        <p>A trip to Seattle wouldn't be complete without seeing how this city “does gourmet.” Your guided tour will leave you with a true appreciation for Seattle flavor. Local experts will lead you on an astronomical gastronomical food and culture tour. Check out Seattle's foodie scene at restaurants in Belltown, downtown Seattle, and Pike Place Market. There's even a truffle café specializing in (yup, you guessed it) all things truffle.</p>
+                                        <p class="subtitle">Evening:</p>
+                                        <p>Walk off the food tour with stunning views of the downtown waterfront—just five minutes from the hotel. Or unwind in the jacuzzi before turning in for the night.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item day-4">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 pull-right">
+                    <div class="carousel-information">
+                        <div class="row">
+                            <div class="col-xs-5 col-md-3">
+                                <h1 class="title">Day 4</h1>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="carousel-content">
+                                    <h1>Your ship awaits</h1>
+                                    <div class="hidden-xs">
+                                        <p class="subtitle">Morning:</p>
+                                        <p>After breakfast, we'll take you to the port. Get ready to set sail aboard the award-winning Celebrity Solstice&reg;.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button-container text-center">
+        <button class="button" scroll-to-element="#how-to-book">HOW TO BOOK</button>
+    </div>
+</section>
+
+<section id="how-to-book" class="how-to-book-section">
+    <div class="row">
+        <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+            <h1>Start your Alaska vacation before your ship even sails.</h1>
+            <div class="row make-same-height">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="options-container">
+                        <h2>WHAT'S INCLUDED</h2>
+                        <ul class="options">
+                            <li>3 nights in the luxurious Fairmont Olympic Hotel, with breakfasts.</li>
+                            <li>Full-day, fully guided, city-highlights tour with lunch.</li>
+                            <li>Half-day, fully guided tour and farewell dinner at a local favorite restaurant.</li>
+                            <li>Celebrity Cruises Hospitality Desk in your hotel.</li>
+                            <li>All airport and seaport transfers.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                    <div class="options-container">
+                        <h2>HOW TO BOOK</h2>
+                        <ul class="options">
+                            <li>First, book your cruise.</li>
+                            <li>Then, simply add your City Stay package when you manage your reservation.</li>
+                            <li>Or Call us at <a href="tel:+18006472251">1-800-647-2251</a>, or contact your travel agent.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a class="button" href="http://www.celebritycruises.com/cruise-search/search-results">FIND YOUR CRUISE</a>
+                <button class="text-button" ng-click="main.open()">Terms & Conditions</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="social-media-section">
+    <div class="row">
+        <div class="col-xs-12 col-md-4 col-md-offset-4">
+            <div class="share-buttons-container">
+                <h2>Share the Seattle City Stay</h2>
+                <span class='st_facebook_large' displayText='Facebook'></span>
+                <span class='st_twitter_large' displayText='Tweet'></span>
+                <span class='st_googleplus_large' displayText='Google +'></span>
+                <span class='st_email_large' displayText='Email'></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script type="text/ng-template" id="modal.html">
+    <div class="modal-header">
+        <div class="close-button pull-right" ng-click="$dismiss('cancel')">&times;</div>
+    </div>
+    <div class="modal-body">
+        <p class="small-font">
+            *Terms and conditions vary for each package. For complete details on individual packages, call 1-800-647-2251. Each Package is per person and must be purchased by each guest occupying a stateroom. Some Packages are limited to double occupancy. Package is subject to availability and may sell out. Packages include Offer Cruise, 3 nights stay in a 4-star hotel (selected by Celebrity Cruises), full-day city highlights tour, and half-day event with evening dinner, Internet usage terms apply]. The following Package Cancellation schedule and fees apply (days prior to travel departure date): 180 or more days = no penalty; 120 to 180 days = $450; 90 to 119 days = 25% of total price less taxes and fees; 60 to 89 days = 50% of total price less taxes and fees; 21 to 59 days = 80% of total price less taxes and fees; and 21 days or less = No refund less taxes and fees.
+        </p>
+        <p class="small-font">
+            Package components cannot be substituted or changed, and are non-refundable and non-transferrable. Unless stated otherwise, Package applies to new individual bookings, may be combinable with other price programs, promotions or discounted rates (visit celebritycruises.com for combinable offers), and may be withdrawn at any time. Single occupancy guests are eligible for Package, subject to additional charge. Celebrity Cruises reserves the right to correct any errors, inaccuracies, or omissions and to change or update fares, fees, and surcharges at any time without prior notice. Refer to the
+            <a href="http://www.celebritycruises.com/media/en_US/pdf/cruise_ticket_contract/Celebrity_Ticket_Contract_3_28_11.pdf" target="_blank">Cruise Ticket Contract</a> for additional terms and conditions.
+        </p>
+    </div>
+</script>
